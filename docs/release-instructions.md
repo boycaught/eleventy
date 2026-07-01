@@ -38,8 +38,8 @@ Unfortunate note about npm and tags (specifically `canary` here): if you push a 
 # Docs/Website (Main releases only)
 
 1. Maybe search for `-alpha.` (`-canary.`?) or `-beta.` in the docs copy to update to the stable release, if applicable.
-1. Check in a new `11ty-website` site with updated `package.json` version.
-1. Add version to `11ty-website` `versions.json`
+1. Check in a new `11ty/docs` site with updated `package.json` version.
+1. Add version to `11ty/docs` `versions.json`
 1. Commit it
 1. Create a new branch for branched version
 1. (Main) Check out the previous version git branch and add `outdated: true` to `_data/config.json` and commit/push.
@@ -47,5 +47,5 @@ Unfortunate note about npm and tags (specifically `canary` here): if you push a 
 
 # Downstream dependencies
 
-1. Update `eleventy-base-blog` to use new version
-1. Update `11ty-website` to use new version
+1. Update `11ty/eleventy-base-blog` to use new version
+1. Update `11ty/docs` to use new version

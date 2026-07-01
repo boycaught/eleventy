@@ -6,8 +6,8 @@ contact_links:
     url: https://github.com/11ty/buildawesome/discussions/new?category=enhancement-queue
     about: Enhancement or new Features. Suggest an idea! (Please search existing discussions first!)
   - name: I wish the docs were different!
-    url: https://github.com/11ty/11ty-website/issues/new/choose
-    about: Something missing from the documentation? Something wrong? Something confusing? You want the 11ty-website repo!
+    url: https://github.com/11ty/docs/issues/new/choose
+    about: Something missing from the documentation? Something wrong? Something confusing? You want the docs repo!
   - name: Discord Community
     url: https://discord.gg/GBkBy9u
     about: Ask the community on Discord
